@@ -6,7 +6,6 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbSignGloves from '../public/images/works/signgloves/signgloves.png'
 import thumbTennisDetections from '../public/images/works/tennisdetections/tennisdetections.png'
 
-
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -40,6 +39,7 @@ const Works = () => (
     </Container>
   </Layout>
 )
-
+ 
 export default Works
 export { getServerSideProps } from '../components/chakra'
+
