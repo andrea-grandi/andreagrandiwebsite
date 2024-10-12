@@ -36,6 +36,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/works/signgloves.js"
+    ],
+    "/works/tennisdetections": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/tennisdetections.js"
     ]
   },
   "ampFirstPages": []
