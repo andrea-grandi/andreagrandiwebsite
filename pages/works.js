@@ -17,7 +17,7 @@ const Works = () => (
 
         <Section>
           <WorkGridItem 
-            id="SignGloves" 
+            id="signgloves" 
             title="Sign Gloves" 
             thumbnail={thumbSignGloves}
           >
@@ -27,7 +27,7 @@ const Works = () => (
 
         <Section>
           <WorkGridItem 
-            id="TennisDetections" 
+            id="tennisdetections" 
             title="Tennis Detections" 
             thumbnail={thumbTennisDetections}
           >

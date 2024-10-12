@@ -4,5 +4,7 @@
   "/_document": "pages/_document.js",
   "/works": "pages/works.js",
   "/": "pages/index.js",
-  "/works/SignGloves": "pages/works/SignGloves.js"
+  "/404": "pages/404.js",
+  "/works/signgloves": "pages/works/signgloves.js",
+  "/works/tennisdetections": "pages/works/tennisdetections.js"
 }

@@ -17,6 +17,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
+    "/404": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/404.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -32,10 +37,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/SignGloves": [
+    "/works/signgloves": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/SignGloves.js"
+      "static/chunks/pages/works/signgloves.js"
+    ],
+    "/works/tennisdetections": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/tennisdetections.js"
     ]
   },
   "ampFirstPages": []
