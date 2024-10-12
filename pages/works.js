@@ -27,7 +27,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section>
+        <Section delay={0.1}>
           <WorkGridItem 
             id="tennisdetections" 
             title="Tennis Detections" 
@@ -37,7 +37,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        <Section delay={0.2}>
           <WorkGridItem 
             id="bioinformatics" 
             title="Bioinformatics" 
@@ -47,7 +47,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        <Section delay={0.3}>
           <WorkGridItem 
             id="dai" 
             title="Distributed AI" 

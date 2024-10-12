@@ -13,6 +13,7 @@ import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
+import Section from '../../components/section'
 
 const Work = () => (
   <Layout title="Tennis Detections">
@@ -21,24 +22,43 @@ const Work = () => (
         Tennis Detections <Badge>May 2024 - July 2024</Badge>
       </Title>
 
-      <Heading as="h4" fontSize={16} my={6}>
-        <Center>Computer Vision and Cognitive Systems Project 2023/2024</Center>
-      </Heading>
 
-      <Center my={6}>
-        <Image src="/images/works/tennisdetections/tennisdetections.png" alt="icon" borderRadius="12px"/>
-      </Center>
+      <Section>
+        <Heading as="h4" fontSize={16} my={6}>
+          <Center>Computer Vision and Cognitive Systems Project 2023/2024</Center>
+        </Heading>
 
-      <P>
-        The accurate detection and description of players and balls in tennis match images is crucial for detailed match analysis. This project addresses the challenge of achieving high-quality detection of tennis players and balls to facilitate comprehensive analysis of tennis matches, including tracking in video data. Our approach leverages the YOLO (You Only Look Once) model for object detection and the BLIP model for generating natural language descriptions that capture the spatial relationships between detected objects on the court.
-      </P>
-      <P>
-To enhance our analysis, we incorporated a tracking component using TrackNet, allowing us to extend the detection capabilities to video data and analyze the continuous movements of players and balls. This holistic approach ensures that both static and dynamic aspects of tennis matches are effectively captured.
-      </P>
-      <P>
-Our results demonstrate that the combined use of YOLO and BLIP models achieves remarkable accuracy and speed in detecting players and balls. The YOLO model's state-of-the-art performance in object detection, coupled with BLIP's ability to generate detailed spatial descriptions, provides a robust solution for tennis match analysis. Additionally, the integration of TrackNet for tracking significantly enhances the system's applicability to real-time and recorded videos, offering a comprehensive tool for tennis analytics.
-      </P>
-
+        <Center my={6}>
+          <Image src="/images/works/tennisdetections/tennisdetections.png" alt="icon" borderRadius="12px"/>
+        </Center>
+      </Section>
+      
+      <Section delay={0.1}>
+        <P>
+        The accurate detection and description of players and balls in tennis match images 
+        is crucial for detailed match analysis. This project addresses the challenge of 
+        achieving high-quality detection of tennis players and balls to facilitate comprehensive 
+        analysis of tennis matches, including tracking in video data. Our approach leverages the YOLO 
+        (You Only Look Once) model for object detection and the BLIP model for generating natural 
+        language descriptions that capture the spatial relationships between detected objects on the court.
+        </P>
+        <P>
+        To enhance our analysis, we incorporated a tracking component using TrackNet, 
+        allowing us to extend the detection capabilities to video data and analyze the 
+        continuous movements of players and balls. This holistic approach ensures that both 
+        static and dynamic aspects of tennis matches are effectively captured.
+        </P>
+        <P>
+        Our results demonstrate that the combined use of YOLO and BLIP models achieves 
+        remarkable accuracy and speed in detecting players and balls. The YOLO model's state-of-the-art 
+        performance in object detection, coupled with BLIP's ability to generate detailed spatial descriptions, 
+        provides a robust solution for tennis match analysis. Additionally, the integration of TrackNet for 
+        tracking significantly enhances the system's applicability to real-time and recorded videos, 
+        offering a comprehensive tool for tennis analytics.
+        </P>
+      </Section>
+      
+      <Section delay={0.2}>
       <Heading as="h3" fontSize={20} my={6}>
         Repository
       </Heading>
@@ -63,7 +83,6 @@ Our results demonstrate that the combined use of YOLO and BLIP models achieves r
         </ListItem>
       </List>
 
-      
       <Heading as="h3" fontSize={20} my={6}>
         Credits
       </Heading>
@@ -87,7 +106,7 @@ Our results demonstrate that the combined use of YOLO and BLIP models achieves r
           </Link>
         </ListItem>
       </List>
-
+      </Section>
       
     </Container>
   </Layout>

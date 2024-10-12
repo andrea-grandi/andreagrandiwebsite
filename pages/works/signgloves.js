@@ -15,6 +15,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import Section from '../../components/section'
 
 const Work = () => (
   <Layout title="Sign Gloves">
@@ -23,23 +24,31 @@ const Work = () => (
         Sign Gloves <Badge>December 2023 - March 2024</Badge>
       </Title>
 
-      <Heading as="h4" fontSize={16} my={6}>
-        <Center>IoT and 3D Intelligent Systems Project 2023/2024</Center>
-      </Heading>
+      <Section>
+        <Heading as="h4" fontSize={16} my={6}>
+          <Center>IoT and 3D Intelligent Systems Project 2023/2024</Center>
+        </Heading>
 
-      <Center my={6}>
-        <Image src="/images/works/signgloves/signgloves.png" alt="icon" borderRadius="12px"/>
-      </Center>
+        <Center my={6}>
+          <Image src="/images/works/signgloves/signgloves.png" alt="icon" borderRadius="12px"/>
+        </Center>
+      </Section>
 
-      <P>
-        Sign Glove is a system that convert sign language in audio for interactions between deaf people and non-deaf people. Through the use of sensors (flex sensors, microphone, GPS, etc.), it is able to translate sign language. Additionally, it can detect potentially hazardous situations in the environment (such as ambulance sounds, loud noises, or signals of distress) and alert others through the gloves.
-      </P>
+      <Section delay={0.1}>
+        <P>
+        Sign Glove is a system that convert sign language in audio for interactions 
+        between deaf people and non-deaf people. Through the use of sensors 
+        (flex sensors, microphone, GPS, etc.), it is able to translate sign language. 
+        Additionally, it can detect potentially hazardous situations in the environment 
+        (such as ambulance sounds, loud noises, or signals of distress) and alert others through the gloves.
+        </P>
+      </Section>
 
+      <Section delay={0.2}>
       <Heading as="h3" fontSize={20} my={6}>
         Components
       </Heading>
 
-      
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Controller</Meta>
@@ -66,45 +75,51 @@ const Work = () => (
           <span>SQLite/CouchDB</span>
         </ListItem>
       </List>
+      </Section>
 
-      <WorkImage src="/images/works/signgloves/diagram.png" alt="System Diagram" />
-  
-      <Heading as="h3" fontSize={20} my={6}>
-        Repository
-      </Heading>
-      <List ml={4} my={4}>
-      <ListItem>
-        <Meta>GitHub</Meta>
-          <Link href="https://github.com/andrea-grandi/iot_project" target="_blank">
-            Sign Gloves Project <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-      </List>
-
-      <Heading as="h3" fontSize={20} my={6}>
-        Credits
-      </Heading>
-      <List ml={4} my={4}>
-      <ListItem>
-        <Meta>Andrea Grandi</Meta>
-        <Link href="https://github.com/andrea-grandi" target="_blank">
-          @andrea-grandi <ExternalLinkIcon mx="2px" />
-        </Link>
-      </ListItem>
-      <ListItem>
-      <Meta>Luca Montagnani</Meta>
-        <Link href="https://github.com/montaooo" target="_blank">
-          @montaooo <ExternalLinkIcon mx="2px" />
-        </Link>
-      </ListItem>
-      <ListItem>
-        <Meta>Daniele Vellani</Meta>
-          <Link href="https://github.com/franzione1" target="_blank">
-            @franzione1 <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-      </List>
+      <Section delay={0.3}>
+        <WorkImage src="/images/works/signgloves/diagram.png" alt="System Diagram" />
+      </Section>
       
+      <Section delay={0.4}>
+
+        <Heading as="h3" fontSize={20} my={6}>
+          Repository
+        </Heading>
+        <List ml={4} my={4}>
+        <ListItem>
+          <Meta>GitHub</Meta>
+            <Link href="https://github.com/andrea-grandi/iot_project" target="_blank">
+              Sign Gloves Project <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+        </List>
+
+        <Heading as="h3" fontSize={20} my={6}>
+          Credits
+        </Heading>
+        <List ml={4} my={4}>
+        <ListItem>
+          <Meta>Andrea Grandi</Meta>
+          <Link href="https://github.com/andrea-grandi" target="_blank">
+            @andrea-grandi <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Luca Montagnani</Meta>
+            <Link href="https://github.com/montaooo" target="_blank">
+              @montaooo <ExternalLinkIcon mx="2px" />
+            </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Daniele Vellani</Meta>
+            <Link href="https://github.com/franzione1" target="_blank">
+              @franzione1 <ExternalLinkIcon mx="2px" />
+            </Link>
+        </ListItem>
+        </List>
+      </Section>
+        
     </Container>
   </Layout>
 )

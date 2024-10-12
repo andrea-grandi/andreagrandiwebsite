@@ -23,7 +23,7 @@ const UnderConstruction = () => {
           Under Construction
         </Heading>
         <Text fontSize="xl" color={textColor} textAlign="center">
-          I'm working to bring you something amazing. Please check back soon!
+          I&apos;m working to bring you something amazing. Please check back soon!
         </Text>
         <Box>
           <Text as="span" fontWeight="bold">
