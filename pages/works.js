@@ -5,6 +5,8 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbSignGloves from '../public/images/works/signgloves/signgloves.png'
 import thumbTennisDetections from '../public/images/works/tennisdetections/tennisdetections.png'
+import thumbBioinformatics from '../public/images/works/bioinformatics/bio.png'
+import thumbDai from '../public/images/works/dai/dai.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -34,6 +36,29 @@ const Works = () => (
             Object detections and descriptions for tennis matches
           </WorkGridItem>
         </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem 
+            id="bioinformatics" 
+            title="Bioinformatics" 
+            thumbnail={thumbBioinformatics}
+          >
+            Artificial Intelligence in Bioinformatics Project
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem 
+            id="dai" 
+            title="Distributed AI" 
+            thumbnail={thumbDai}
+          >
+            Distributed Artificial Intelligence Project
+          </WorkGridItem>
+        </Section>
+
+
+
 
       </SimpleGrid>
     </Container>

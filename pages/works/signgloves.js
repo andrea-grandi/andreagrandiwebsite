@@ -17,7 +17,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="SignGloves">
+  <Layout title="Sign Gloves">
     <Container>
       <Title>
         Sign Gloves <Badge>December 2023 - March 2024</Badge>

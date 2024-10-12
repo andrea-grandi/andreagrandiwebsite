@@ -35,12 +35,18 @@ export const WorkGridItem = ({
       scroll={false}
       cursor="pointer"
     >
+      
+    <Box position="relative" width="100%" paddingBottom="60%">
       <Image
         src={thumbnail}
         alt={title}
         className="grid-item-thumbnail"
         placeholder="blur"
+        fill
+        style={{ objectFit: 'cover' }}
       />
+    </Box>
+
       <LinkOverlay as="div" href={`/${category}/${id}`}>
         <Text mt={2} fontSize={20}>
           {title}
