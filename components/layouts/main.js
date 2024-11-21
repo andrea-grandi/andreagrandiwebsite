@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
-import { Box, Container } from '@chakra-ui/react'
+import { Box, Container, Flex} from '@chakra-ui/react'
 import Footer from '../footer'
 
 const Main = ({ children, router }) => {
@@ -26,8 +26,8 @@ const Main = ({ children, router }) => {
 
         {children}
 
-        <Footer />
       </Container>
+      <Footer />
     </Box>
   )
 }
