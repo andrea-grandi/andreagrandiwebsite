@@ -77,9 +77,7 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-        Hello! I&apos;m Andrea Grandi, a passionate and driven individual with a background in computer science and a focus on artificial intelligence. I completed my high school education at Enrico Fermi in Modena in 2019 and went on to earn my bachelor's degree in Computer Engineering from the University of Modena and Reggio Emilia (UniMoRe).
-
-        Currently, I&apos;m pursuing my master's degree in Artificial Intelligence Engineering at UniMoRe, where I continue to explore and deepen my knowledge in this rapidly evolving field. My academic journey has equipped me with a solid foundation, and I am excited to apply my skills and expertise to real-world challenges.
+        Hi! I&apos;m Andrea Grandi, a passionate and dedicated individual with a background in computer science and a focus on artificial intelligence. I completed my high school education at the Enrico Fermi Institute in Modena in 2019 and went on to earn my bachelor's degree in Computer Engineering from the University of Modena and Reggio Emilia (UniMoRe). Currently, I am pursuing a master's degree in Artificial Intelligence Engineering at UniMoRe, where I am continuously expanding my knowledge in this rapidly evolving field. My academic journey has provided me with a solid theoretical and practical foundation, and I am excited to apply my skills and expertise to real-world challenges in AI.
         </Paragraph>
       </Section>
 
