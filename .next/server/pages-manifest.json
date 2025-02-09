@@ -3,7 +3,8 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/works": "pages/works.js",
-  "/": "pages/index.js",
   "/works/tennisdetections": "pages/works/tennisdetections.js",
-  "/works/signgloves": "pages/works/signgloves.js"
+  "/works/bioinformatics": "pages/works/bioinformatics.js",
+  "/": "pages/index.js",
+  "/works/dai": "pages/works/dai.js"
 }
