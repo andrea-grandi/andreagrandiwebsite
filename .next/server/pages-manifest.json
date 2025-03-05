@@ -2,9 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/": "pages/index.js",
   "/works": "pages/works.js",
   "/works/tennisdetections": "pages/works/tennisdetections.js",
   "/works/bioinformatics": "pages/works/bioinformatics.js",
-  "/": "pages/index.js",
-  "/works/dai": "pages/works/dai.js"
+  "/works/signgloves": "pages/works/signgloves.js"
 }

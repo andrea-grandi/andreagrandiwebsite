@@ -37,10 +37,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/works/bioinformatics.js"
     ],
-    "/works/dai": [
+    "/works/signgloves": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/dai.js"
+      "static/chunks/pages/works/signgloves.js"
     ],
     "/works/tennisdetections": [
       "static/chunks/webpack.js",

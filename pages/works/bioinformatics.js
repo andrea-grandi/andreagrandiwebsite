@@ -22,7 +22,7 @@ const Work = () => (
   <Layout title="Bioinformatics">
     <Container>
       <Title>
-        Artificial Intelligence in Bioinformatics Project <Badge></Badge>
+        Artificial Intelligence in Bioinformatics Project <Badge>December 2024 - March 2025</Badge>
       </Title>
 
       <Section>
