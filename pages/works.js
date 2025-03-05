@@ -5,7 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbSignGloves from '../public/images/works/signgloves/signgloves.png'
 import thumbTennisDetections from '../public/images/works/tennisdetections/tennisdetections.png'
-import thumbBioinformatics from '../public/images/works/bioinformatics/bio.png'
+import thumbBioinformatics from '../public/images/works/bioinformatics/wsi.png'
 import thumbDai from '../public/images/works/dai/dai.png'
 
 const Works = () => (
