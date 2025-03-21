@@ -7,6 +7,8 @@ import thumbSignGloves from '../public/images/works/signgloves/signgloves.png'
 import thumbTennisDetections from '../public/images/works/tennisdetections/tennisdetections.png'
 import thumbBioinformatics from '../public/images/works/bioinformatics/wsi.png'
 import thumbDai from '../public/images/works/dai/dai.png'
+import thumbSR from '../public/images/works/smartrobotics/smart_robotics.png'
+import thumbSentiment from '../public/images/works/sentimentanalysis/sa.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -43,7 +45,7 @@ const Works = () => (
             title="Bioinformatics" 
             thumbnail={thumbBioinformatics}
           >
-            Artificial Intelligence in Bioinformatics Project
+            Multiple instance learning with contextual knowledge
           </WorkGridItem>
         </Section>
 
@@ -54,6 +56,26 @@ const Works = () => (
             thumbnail={thumbDai}
           >
             Distributed Artificial Intelligence Project
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.4}>
+          <WorkGridItem 
+            id="smartrobotics" 
+            title="Smart Robotics" 
+            thumbnail={thumbSR}
+          >
+            Smart Robotics Project
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.5}>
+          <WorkGridItem 
+            id="sentimentanalysis" 
+            title="Sentiment Analysis" 
+            thumbnail={thumbSentiment}
+          >
+            Sentiment Analysis
           </WorkGridItem>
         </Section>
 
