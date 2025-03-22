@@ -27,10 +27,6 @@ const Work = () => (
         <Heading as="h4" fontSize={16} my={6}>
           <Center>Computer Vision and Cognitive Systems Project 2023/2024</Center>
         </Heading>
-
-        <Center my={6}>
-          <Image src="/images/works/tennisdetections/tennisdetections.png" alt="icon" borderRadius="12px"/>
-        </Center>
       </Section>
       
       <Section delay={0.1}>

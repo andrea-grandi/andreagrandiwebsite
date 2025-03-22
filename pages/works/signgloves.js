@@ -28,10 +28,6 @@ const Work = () => (
         <Heading as="h4" fontSize={16} my={6}>
           <Center>IoT and 3D Intelligent Systems Project 2023/2024</Center>
         </Heading>
-
-        <Center my={6}>
-          <Image src="/images/works/signgloves/signgloves.png" alt="icon" borderRadius="12px"/>
-        </Center>
       </Section>
 
       <Section delay={0.1}>
@@ -78,11 +74,6 @@ const Work = () => (
       </Section>
 
       <Section delay={0.3}>
-        <WorkImage src="/images/works/signgloves/diagram.png" alt="System Diagram" />
-      </Section>
-      
-      <Section delay={0.4}>
-
         <Heading as="h3" fontSize={20} my={6}>
           Repository
         </Heading>
