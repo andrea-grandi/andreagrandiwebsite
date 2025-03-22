@@ -158,7 +158,7 @@ const Home = () => (
           Contact Me
         </Heading>
         <Paragraph>
-          Feel free to reach out to me at <Link href="mailto:andrea.grandi@tiscali.it">andrea DOT grandi AT tiscali DOT it</Link>
+          Feel free to reach out at <Link href="mailto:andrea.grandi@tiscali.it">andrea DOT grandi AT tiscali DOT it</Link>
         </Paragraph>
       </Section>
     </Container>
