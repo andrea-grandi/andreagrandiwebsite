@@ -29,7 +29,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        <Section>
           <WorkGridItem 
             id="tennisdetections" 
             title="Tennis Detections" 
@@ -39,7 +39,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.2}>
+        <Section delay={0.1}>
           <WorkGridItem 
             id="bioinformatics" 
             title="Bioinformatics" 
@@ -49,7 +49,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.3}>
+        <Section delay={0.1}>
           <WorkGridItem 
             id="dai" 
             title="Distributed AI" 
@@ -59,7 +59,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.4}>
+        <Section delay={0.2}>
           <WorkGridItem 
             id="smartrobotics" 
             title="Smart Robotics" 
@@ -69,7 +69,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.5}>
+        <Section delay={0.2}>
           <WorkGridItem 
             id="sentimentanalysis" 
             title="Sentiment Analysis" 
