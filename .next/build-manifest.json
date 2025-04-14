@@ -31,16 +31,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
-    ],
-    "/works/sentimentanalysis": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/sentimentanalysis.js"
-    ],
-    "/works/signgloves": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/signgloves.js"
     ]
   },
   "ampFirstPages": []
