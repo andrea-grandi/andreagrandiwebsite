@@ -1,10 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/works/signgloves": "pages/works/signgloves.js",
-  "/works/tennisdetections": "pages/works/tennisdetections.js",
-  "/works/bioinformatics": "pages/works/bioinformatics.js",
-  "/works": "pages/works.js"
-}
+{"/_app":"pages/_app.js","/_error":"pages/_error.js","/_document":"pages/_document.js","/404":"pages/404.html","/works/dai":"pages/works/dai.js","/works":"pages/works.js","/works/bioinformatics":"pages/works/bioinformatics.js","/works/sentimentanalysis":"pages/works/sentimentanalysis.js","/works/smartrobotics":"pages/works/smartrobotics.js","/":"pages/index.js","/works/tennisdetections":"pages/works/tennisdetections.js","/works/signgloves":"pages/works/signgloves.js"}
