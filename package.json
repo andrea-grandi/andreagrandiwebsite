@@ -1,7 +1,6 @@
 {
   "name": "andreagrandi-homepage",
   "version": "1.0.0",
-  "packageManager": "yarn@3.6.3",
   "description": "Andrea Grandi website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
@@ -36,7 +35,14 @@
   },
   "main": "next.config.js",
   "directories": {
-    "doc": "doc",
     "lib": "lib"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrea-grandi/andreagrandiwebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrea-grandi/andreagrandiwebsite/issues"
+  },
+  "homepage": "https://github.com/andrea-grandi/andreagrandiwebsite#readme"
 }
