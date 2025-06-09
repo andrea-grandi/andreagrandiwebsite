@@ -11,7 +11,7 @@ import {
   useColorModeValue,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, EmailIcon, InfoOutlineIcon, AttachmentIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -101,6 +101,17 @@ const Home = () => (
           <BioYear>2025</BioYear>
           MSc in Artificial Intelligence Engineering at UniMoRe.
         </BioSection>
+	
+	<Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+    	<Button
+      		mt={2}
+     		colorScheme="teal"
+     		variant="ghost"
+     		leftIcon={<AttachmentIcon />}
+    		>
+      		C.V.
+    	</Button>
+  	</Link>
       </Section>
 
       <Section delay={0.3}>
@@ -158,7 +169,7 @@ const Home = () => (
           Contact Me
         </Heading>
         <Paragraph>
-          Feel free to reach out at <Link href="mailto:andrea.grandi.ai@gmail.com">andrea DOT grandi DOT ai AT gmail DOT com</Link>
+          Feel free to reach out at <Link href="mailto:andrea.grandi@tiscali.it">andrea DOT grandi AT tiscali DOT it</Link>
         </Paragraph>
       </Section>
     </Container>

@@ -81,8 +81,8 @@ const Navbar = props => {
             Works
           </LinkItem>
         </Stack>
-
-         <Box flex={1} align="right">
+ 	
+	<Box flex={1} align="right">
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
@@ -100,6 +100,9 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
+		<MenuItem as={MenuLink}>
+		  Curriculum
+		</MenuItem>
               </MenuList>
             </Menu>
           </Box>
