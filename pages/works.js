@@ -68,17 +68,7 @@ const Works = () => (
             Smart Robotics Project
           </WorkGridItem>
         </Section>
-
-        <Section delay={0.2}>
-          <WorkGridItem 
-            id="sentimentanalysis" 
-            title="Sentiment Analysis" 
-            thumbnail={thumbSentiment}
-          >
-            Sentiment Analysis
-          </WorkGridItem>
-        </Section>
-
+ 
 
 
 

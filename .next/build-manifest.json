@@ -31,21 +31,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
-    ],
-    "/works/bioinformatics": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/bioinformatics.js"
-    ],
-    "/works/dai": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/dai.js"
-    ],
-    "/works/tennisdetections": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/tennisdetections.js"
     ]
   },
   "ampFirstPages": []
