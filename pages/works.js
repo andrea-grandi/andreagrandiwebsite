@@ -37,7 +37,7 @@ const Works = () => {
       })
       
       const data = await response.json()
-      const botMessage = { type: 'bot', content: data.response || 'Sorry, I couldn\'t process that.' }
+      const botMessage = { type: 'bot', content: data.reply || 'Sorry, I couldn\'t process that.' }
       setMessages(prev => [...prev, botMessage])
     } catch (error) {
       console.error('Error:', error)
