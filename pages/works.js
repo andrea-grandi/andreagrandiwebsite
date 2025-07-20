@@ -18,24 +18,28 @@ const Works = () => {
   const chatBg = useColorModeValue('gray.50', 'gray.800')
   const messageBg = useColorModeValue('blue.100', 'blue.600')
   const botMessageBg = useColorModeValue('gray.200', 'gray.600')
+
+  const API_URL = `https://${process.env.NEXT_PUBLIC_SERVER}/chat`
+  const API_TOKEN = process.env.NEXT_PUBLIC_CHATBOT_TOKEN
   
   const sendMessage = async () => {
     if (!inputMessage.trim()) return
-    
+
     const userMessage = { type: 'user', content: inputMessage }
     setMessages(prev => [...prev, userMessage])
     setInputMessage('')
     setIsLoading(true)
-    
+
     try {
       const response = await fetch(`https://${process.env.NEXT_PUBLIC_SERVER}/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_CHATBOT_TOKEN}`
         },
         body: JSON.stringify({ message: inputMessage }),
       })
-      
+
       const data = await response.json()
       const botMessage = { type: 'bot', content: data.reply || 'Sorry, I couldn\'t process that.' }
       setMessages(prev => [...prev, botMessage])
@@ -47,6 +51,7 @@ const Works = () => {
       setIsLoading(false)
     }
   }
+
   
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
