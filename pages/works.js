@@ -31,7 +31,7 @@ const Works = () => {
     setIsLoading(true)
 
     try {
-      const response = await fetch(`https://${process.env.NEXT_PUBLIC_SERVER}/chat`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER}/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
