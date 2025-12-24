@@ -76,8 +76,22 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-        Hi! I&apos;m Andrea Grandi, a passionate and dedicated individual with a background in computer science and a focus on artificial intelligence. I completed my high school education at the Enrico Fermi Institute in Modena in 2019 and went on to earn my bachelor's degree in Computer Engineering from the University of Modena and Reggio Emilia (UniMoRe). Currently, I am pursuing a master's degree in Artificial Intelligence Engineering at UniMoRe, where I am continuously expanding my knowledge in this rapidly evolving field. My academic journey has provided me with a solid theoretical and practical foundation, and I am excited to apply my skills and expertise to real-world challenges in AI.
+        Hi! I&apos;m Andrea Grandi, a Computer Engineer and Master&apos;s student in Artificial Intelligence Engineering at UniMoRe.
         </Paragraph>
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Work Experience
+        </Heading>
+        <BioSection>
+          <BioYear>2025-2026</BioYear>
+          Internship trainee · Accenture (Modena)
+        </BioSection>
+        <BioSection>
+          <BioYear>2024-2025</BioYear>
+          Cashier and Order Management · Pizzeria Don Mimì (Modena)
+        </BioSection>
       </Section>
 
       <Section delay={0.2}>
@@ -85,20 +99,20 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2000</BioYear>
-          Born in Modena, Italy.
-        </BioSection>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          High school degree at I.T.I.S Enrico Fermi, Modena.
+          <BioYear>2025</BioYear>
+          MSc in Artificial Intelligence Engineering at UniMoRe.
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
           BSc in Computer Engineering at UniMoRe.
         </BioSection>
         <BioSection>
-          <BioYear>2025</BioYear>
-          MSc in Artificial Intelligence Engineering at UniMoRe.
+          <BioYear>2019</BioYear>
+          High school degree at I.T.I.S Enrico Fermi, Modena.
+        </BioSection>
+        <BioSection>
+          <BioYear>2000</BioYear>
+          Born in Modena, Italy.
         </BioSection>
 	
 	<Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
@@ -118,7 +132,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          AI, Basketball, Motor Racing
+        AI, Basketball, Motor Racing
         </Paragraph>
       </Section>
 
