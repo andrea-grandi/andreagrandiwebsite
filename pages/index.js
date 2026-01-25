@@ -99,7 +99,7 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2025</BioYear>
+          <BioYear>2026</BioYear>
           MSc in Artificial Intelligence Engineering at UniMoRe.
         </BioSection>
         <BioSection>
