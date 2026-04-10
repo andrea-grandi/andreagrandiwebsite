@@ -76,7 +76,7 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-        Hi! I&apos;m Andrea Grandi, a Computer Engineer and Master&apos;s student in Artificial Intelligence Engineering at UniMoRe.
+        Hi! I&apos;m Andrea Grandi, an Artificial Intelligence Engineer.
         </Paragraph>
       </Section>
 
@@ -84,6 +84,10 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Work Experience
         </Heading>
+        <BioSection>
+            <BioYear>2026</BioYear>
+            Ind & Func AI Decision Science Analyst · Accenture (Modena)
+        </BioSection>
         <BioSection>
           <BioYear>2025-2026</BioYear>
           Internship trainee · Accenture (Modena)
