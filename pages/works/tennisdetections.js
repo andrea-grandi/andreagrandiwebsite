@@ -68,11 +68,11 @@ const Work = () => (
       </List>
 
       <Heading as="h3" fontSize={20} my={6}>
-        Paper
+        Report
       </Heading>
       <List ml={4} my={4}>
       <ListItem>
-        <Meta>Paper</Meta>
+        <Meta>Report</Meta>
           <Link href="https://github.com/andrea-grandi/cvcs_project/blob/master/paper/Tennis_Player_and_Ball_Analysis.pdf" target="_blank">
             Github <ExternalLinkIcon mx="2px" />
           </Link>

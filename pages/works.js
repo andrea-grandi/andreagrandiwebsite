@@ -7,6 +7,7 @@ import thumbTennisDetections from '../public/images/works/tennisdetections/tenni
 import thumbBioinformatics from '../public/images/works/bioinformatics/wsi.png'
 import thumbDai from '../public/images/works/dai/dai.png'
 import thumbSR from '../public/images/works/smartrobotics/smart_robotics.png'
+import thumbPortfolio from '../public/images/works/portfolio_diletta/portfolio.png'
 
 
 const Works = () => {
@@ -61,6 +62,15 @@ const Works = () => {
               thumbnail={thumbSR}
             >
               Smart Robotics Project
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem 
+              id="portfolio_cellurale" 
+              title="Porfolio Diletta Cellurale" 
+              thumbnail={thumbPortfolio}
+            >
+              Porfotlio Website for Diletta Cellurale
             </WorkGridItem>
           </Section>
         </SimpleGrid>
